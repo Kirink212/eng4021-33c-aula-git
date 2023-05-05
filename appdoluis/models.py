@@ -5,3 +5,6 @@ class Task(models.Model):
   description = models.TextField()
   due_date = models.DateField()
   done = models.BooleanField()
+ 
+class User(models.Model):
+  name = models.CharField(max_length = 50)
