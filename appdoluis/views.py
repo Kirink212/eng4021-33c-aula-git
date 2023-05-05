@@ -60,4 +60,6 @@ def delete_task(request, task_id):
     return render(request, "delete_form.html", context={"task": task})
 
 def funcao_nova():
+    nome = "Vinicius Machado"
     print("A melhor função do projeto")
+    print(f"{nome} é alcoolatra")
