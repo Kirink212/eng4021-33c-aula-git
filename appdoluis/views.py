@@ -62,4 +62,4 @@ def delete_task(request, task_id):
 def funcao_nova():
     nome = "Vinicius Machado"
     print("A melhor função do projeto")
-    print(f"{nome} é alcoolatra")
+    print(f"{nome} é pinguço")
